@@ -6,10 +6,10 @@
 #define BLYNK_PRINT Serial
 
 #define APP_DEBUG
-#define LED_PIN2 D2
-#define LED_PIN3 D3 
-#define LED_PIN4 D6
-#define LED_PIN1 D10
+#define LED_PIN1 D2
+#define LED_PIN2 D3
+#define LED_PIN3 D6 
+#define LED_PIN4 D10 
 
 #include "BlynkEdgent.h"
 
@@ -50,10 +50,16 @@ void alternateLEDs() {
   digitalWrite(LED_PIN2, HIGH);
   digitalWrite(LED_PIN3, HIGH);
   digitalWrite(LED_PIN4, HIGH); // Turn on the new LED
-  delay(1000);
+  delay(250);
 }
 
 void resumeLEDs() {
+  digitalWrite(LED_PIN1, HIGH);
+  digitalWrite(LED_PIN2, LOW);
+  digitalWrite(LED_PIN3, LOW);
+  digitalWrite(LED_PIN4, LOW); // Turn off the new LED
+  delay(1000);
+
   digitalWrite(LED_PIN1, LOW);
   digitalWrite(LED_PIN2, HIGH);
   digitalWrite(LED_PIN3, LOW);
@@ -70,7 +76,7 @@ void resumeLEDs() {
   digitalWrite(LED_PIN2, LOW);
   digitalWrite(LED_PIN3, LOW);
   digitalWrite(LED_PIN4, HIGH); // Turn off the new LED
-  delay(1000);
+  delay(250);
 }
 
 BLYNK_WRITE(V0) {

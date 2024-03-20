@@ -1,6 +1,6 @@
 # ESP8266 LED Interfacing with Wi-Fi via Blynk App 💡🔘
 
-This project demonstrates interfacing LEDs with a push button using an ESP8266 (D1 R1) and controlling them through Wi-Fi using the Blynk app. The LEDs are connected to pins D2, D3, D6, and D10, while pin D1 is used to indicate connectivity with the cloud and network. A total of 5 LEDs are used in this project.
+This project demonstrates interfacing LEDs with an ESP8266 (D1 R1) and controlling them through Wi-Fi using the Blynk app. The LEDs are connected to pins D2, D3, D6, and D10, while pin D1 is used to indicate connectivity with the cloud and network. A total of 5 LEDs are used in this project.
 
 <br>
 
@@ -143,7 +143,7 @@ Blynk is a platform that allows you to build IoT applications easily. Follow the
 
 ## Arduino Code Configuration
 
-1. Open the Arduino code file [`LED_Button_Interfacing.ino`](code/LED_Button_Interfacing/LED_Button_Interfacing.ino) from this repository.
+1. Open the Arduino code file [`LED_WiFi_Interfacing.ino`](code/LED_WiFi_Interfacing/LED_WiFi_Interfacing.ino) from this repository.
 2. Include the Blynk library and configure the Wi-Fi credentials.
 3. Initialize Blynk with your authentication token and connect to the Blynk server.
 4. Map the virtual pins to the corresponding LEDs and connectivity indicators.
