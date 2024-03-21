@@ -6,19 +6,11 @@ This guide provides step-by-step instructions for setting up and uploading the A
 
 1. **Download Arduino IDE**
 
-   ![Download Arduino IDE](../image/arduino_download.png)
-
 2. **Install Arduino IDE**
-
-   ![Install Arduino IDE](../image/arduino_install.png)
 
 3. **Launch Arduino IDE**
 
-   ![Launch Arduino IDE](../image/arduino_launch.png)
-
 4. **Open Arduino IDE Preferences**
-
-   ![Open Arduino IDE Preferences](../image/arduino_preferences.png)
 
 ## Step 2: Add ESP8266 Board to Arduino IDE
 
